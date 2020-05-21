@@ -32,7 +32,7 @@ But how it is generated? I have found that HP website uses another request just 
 URL : https://support.hp.com/hp-pps-services/ssid/generateSSID
 Without any params.
 Respons like:
-<input type="hidden" id="secureTokenField" value="[mwsid, ossid]" /><input type="hidden" id="secureFieldJson" value='{"mwsid":"xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx","ossid":"xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"}' />
+"<input type="hidden" id="secureTokenField" value="[mwsid, ossid]" /><input type="hidden" id="secureFieldJson" value='{"mwsid":"xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx","ossid":"xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"}' />"
 mwsid
 
 I wanted to give it a try, so i have started writting a code.
