@@ -51,7 +51,7 @@ Without any params.
 
 After i get response, i just save client CookieContainer to a variable. Then with new request I use same CookieContainer and it works. I cut mwsid value form generateSSID response which is my new ssid. Then send multiWarranty request with this ssid as param and my json file as body. 
 
-This should help others to write it in any language they want. I will upload my version of code soon. ( C# )
+This should help others to write it in any language they want. I will upload my version of code soon.
 
 
 
